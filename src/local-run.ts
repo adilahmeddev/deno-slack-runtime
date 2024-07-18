@@ -61,6 +61,7 @@ export const getCommandline = function (
     "run",
     "-q",
     "--config=deno.jsonc",
+    "--allow-write",
     "--allow-read",
     "--allow-env",
   ];
